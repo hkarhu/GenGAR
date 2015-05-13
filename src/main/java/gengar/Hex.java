@@ -8,9 +8,10 @@ import fi.conf.ae.gl.texture.GLTextureManager;
 
 public class Hex {
 	
+	public static final float HEX_DETECTION_COVERAGE = 1.1f;
 	public static float HEX_SIZE = 0.1638f;
 	public static float HEX_LINE_WIDTH = 0.5f;
-	public static final float HEX_DETECTION_COVERAGE = 1.1f;
+	
 	
 	private int q, r;
 	private float cR=0.5f, cB=0.5f, cG=0.5f, cA=1f;
