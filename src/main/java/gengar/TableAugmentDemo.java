@@ -137,10 +137,12 @@ public class TableAugmentDemo extends GLCore implements RealityChangeListener, G
 				GLValues.fullScreen );
 	}
 
+	long currentTime;
+	
 	@Override
 	public void glLoop() {
 		
-		long currentTime = System.currentTimeMillis()-startTime;
+		currentTime = System.currentTimeMillis()-startTime;
 		
 		GL11.glClear(
 				GL11.GL_COLOR_BUFFER_BIT |
